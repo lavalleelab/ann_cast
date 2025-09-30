@@ -8,9 +8,13 @@ We trained this classifier using  single cell RNA sequencing data generated from
 ### Docker:
 > [!TIP]
 > Install the docker as follow :
-- docker pull ghcr.io/lavalleelab/ann_cast:v0.2
+```
+ docker pull ghcr.io/lavalleelab/ann_cast:v0.2
+```
 > add your normalized h5 file in a data folder in your current directory, after which you can run this line of code for running the application:
-- docker run -v "$(pwd)/data":/opt/anncast/data ghcr.io/lavalleelab/ann_cast:v0.2 ./anncast/anncast_pred.py -i /opt/anncast/data/GallenFull_integrated.h5ad
+```
+docker run -v "$(pwd)/data":/opt/anncast/data ghcr.io/lavalleelab/ann_cast:v0.2 ./anncast/anncast_pred.py -i /opt/anncast/data/GallenFull_integrated.h5ad
+```
 > Refer to Python tutorial for normalization step
 
  
