@@ -11,11 +11,10 @@ We trained this classifier using  single cell RNA sequencing data generated from
 ```
  docker pull ghcr.io/lavalleelab/ann_cast:v0.2
 ```
-> Add your normalized h5 file in a data folder (GallenFull_integrated.h5ad in this example) in your current directory, after which you can run this line of code for running the application:
+> Add your normalized (Refer to Python tutorial for normalization step) h5 file in a data folder (GallenFull_integrated.h5ad in this example) in your current directory, after which you can run this line of code for running the application:
 ```
 docker run -v "$(pwd)/data":/opt/anncast/data ghcr.io/lavalleelab/ann_cast:v0.2 ./anncast/anncast_pred.py -i /opt/anncast/data/GallenFull_integrated.h5ad
 ```
-> Refer to Python tutorial for normalization step
 > Docker creates a CSV file with ANNPrediction_V1 and its confidence level. ANNPrediction_V2 is a modified version of V1 and corrects preNeutrophil (switching preNeut cycling and non cylcling cells), Platelet and Stromal cells annotations.
  
 ### Tutorials:
