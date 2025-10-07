@@ -17,7 +17,7 @@ docker run -v "$(pwd)/data":/opt/anncast/data ghcr.io/lavalleelab/ann_cast:v0.2 
 ```
 > Docker creates a CSV file with ANNPrediction_V1 and its confidence level. ANNPrediction_V2 is a modified version of V1 and corrects preNeutrophil (switching preNeut cycling and non cylcling cells), Platelet and Stromal cells annotations.
  
-### Tutorials:
+### Python and R notebooks:
 
 - [Python tutorial](https://github.com/lavalleelab/AMLclassifier/blob/main/Classifier_python.ipynb)
 - [R tutorial](https://github.com/lavalleelab/AMLclassifier/blob/main/Classifier_R.ipynb)
