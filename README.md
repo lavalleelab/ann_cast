@@ -26,7 +26,7 @@ docker run -v "$(pwd)/data":/opt/anncast/data ghcr.io/lavalleelab/ann_cast:v0.2 
 More details to be followed.
 
 # How to cite 
-Please cite our preprint that will be available shortly.
+Please cite our paper [DOI: 10.1016/j.celrep.2024.114260](https://www.cell.com/cell-reports/fulltext/S2211-1247(24)00588-6?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2211124724005886%3Fshowall%3Dtrue)
  
 ## Authors / Credits
 
